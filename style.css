@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    user-select: none;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.todo,
+.in-progress,
+.done {
+    width: 300px;
+    height: 500px;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 3px solid black;
+    gap: 20px;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.todo .text {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(0, 158, 243);
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    border: 0px;
+}
+
+.in-progress .text {
+    width: 100%;
+    height: 40px;
+    background-color: yellow;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    border: 0px;
+}
+
+.done .text {
+    width: 100%;
+    height: 40px;
+    background-color: green;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    border: 0px;
+}
+
+.todo-box {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(72, 72, 72);
+    border-radius: 10px;
+    border: 3px solid black;
+    text-align: center;
+}
+
+.todo-box p {
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+
+
+.in-progress-box {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(72, 72, 72);
+    border-radius: 10px;
+    border: 3px solid black;
+    text-align: center;
+}
+
+.in-progress-box p {
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+
+.done-box {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(72, 72, 72);
+    border-radius: 10px;
+    border: 3px solid black;
+    text-align: center;
+}
+
+.done-box p {
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+
+button {
+    width: 200px;
+    height: 60px;
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+} 
